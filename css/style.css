@@ -347,7 +347,7 @@ button {
           margin: 0 auto 2rem auto; } }
 
 .bodybg {
-  background: url("/img/bodybg.png") no-repeat;
+  background: url("img/bodybg.png") no-repeat;
   background-size: cover;
   position: absolute;
   width: 100%;
