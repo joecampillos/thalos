@@ -376,6 +376,9 @@ button {
     text-align: center; }
     .advantages__image img {
       width: auto; }
+      @media only screen and (max-width: 71.25em) {
+        .advantages__image img {
+          width: 100%; } }
       @media only screen and (max-width: 35.5em) {
         .advantages__image img {
           min-width: auto;
