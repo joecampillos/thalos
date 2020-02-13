@@ -1,3 +1,13 @@
+.bodybg {
+  background: url("/img/bodybg.png") no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -6rem;
+  z-index: -1;
+}
+
 .advantages {
   background: $color-grey-light;
   padding: 10rem 13rem 1rem 13rem;
