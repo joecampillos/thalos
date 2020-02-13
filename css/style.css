@@ -380,6 +380,9 @@ button {
         .advantages__image img {
           min-width: auto;
           margin: 3rem 0; } }
+      @media only screen and (max-width: 25.8em) {
+        .advantages__image img {
+          width: 100%; } }
   .advantages__desc {
     font-size: 1.8rem;
     font-weight: 700; }
