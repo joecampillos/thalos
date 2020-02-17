@@ -7,10 +7,10 @@ $color-secondary: #bacf31;
 $color-secondary-dark: #839606;
 
 $color-white: #fff;
-$color-black: #000;
+$color-black: #121212;
 $color-grey: #333333;
-$color-grey-light: #e9e9e9;
-$color-grey-light2: #adadad;
+$color-grey-light: #c9c9c9;
+$color-grey-light2: #f3f3f3;
 
 // FONT
 $default-font: "Rajdhani", "Helvetica", sans-serif;
@@ -18,15 +18,15 @@ $default-font-size: 1.6rem;
 
 //GRID
 
-$grid-width: 114rem;
+$grid-width: 120rem;
 $gutter-vertical: 8rem;
 $gutter-vertical-small: 6rem;
-$gutter-horizontal: 3rem;
+$gutter-horizontal: 4rem;
 
 // RESPONSIVE BREAKPOINTS
 
 $bp-desktop-lg: 71.25em; //1140px
-$bp-1260: 78.75em; //1260px
+$bp-desktop-md: 78.75em; //1260px
 $bp-desktop-sm: 78.75em; //1160px
 $bp-tab: 60em; //900px
 $bp-tab-por: 48em; //768px

@@ -19,7 +19,7 @@
   .col-1-of-2 {
     width: calc((100% - #{$gutter-horizontal}) / 2);
 
-    @media only screen and (max-width: $bp-mobile) {
+    @media only screen and (max-width: $bp-tab-por) {
       width: 100%;
     }
   }

@@ -21,11 +21,83 @@ html {
 
 body {
   font-size: $default-font-size;
-  background: $color-primary;
+  background: #f3f3f3;
   font-family: $default-font;
   color: $color-grey;
 }
 
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
 img {
   width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+  /* Edge */
+  color: #546377;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #546377;
+}
+
+::placeholder {
+  color: #546377;
+}
+
+select {
+  padding: 4px 10px;
+}
+
+select {
+  color: #546377;
+}
+option:not(:first-of-type) {
+  color: black !important;
+}
+
+.selectdiv {
+  position: relative;
+}
+
+/*To remove button from IE11, thank you Matt */
+select::-ms-expand {
+  display: none;
+}
+
+.selectdiv:after {
+  content: "<>";
+  font: 17px "Consolas", monospace;
+  color: #333;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  right: 11px;
+  /*Adjust for position however you want*/
+
+  top: 18px;
+  padding: 0 0 2px;
+  /*left line */
+
+  position: absolute;
+  pointer-events: none;
+}
+
+.selectdiv select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* Add some styling */
+  color: #546377;
+  -ms-word-break: normal;
+  word-break: normal;
 }
